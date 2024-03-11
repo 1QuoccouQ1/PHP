@@ -1,0 +1,81 @@
+/* CSS cho trang đăng nhập */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .form-content h4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-content label {
+    margin-bottom: 5px;
+  }
+  
+  .form-content input[type="text"],
+  .form-content input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-content div {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .form-content input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-content input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-content span {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .form-content a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  .form-content a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,35 @@
+thead > tr{
+    background-color: red;
+    color: white;
+    font-size: larger;
+}
+table,h2{
+    width: 800px;
+    margin: 20px auto;
+}
+td{
+    border: 0.1px solid gray; 
+    
+}
+tbody td{
+    width: 150px;
+}
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+a{
+   text-decoration: none;
+   color:  #7A86B8;
+}
+a:hover{
+    text-decoration: underline;
+}
+.fa-pen-to-square{
+    color: green;
+}
+.fa-trash{
+    color: red;
+}
